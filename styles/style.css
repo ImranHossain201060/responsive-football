@@ -1,6 +1,10 @@
-/* fonts */
+/*........ fonts...... */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* common style or utilities */
+
+/* .........................
+common style or utilities
+............................ */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white
@@ -11,8 +15,8 @@ body{
     
     display: flex;
     background-color: blue;
-    padding-top: 135px;
-    padding-bottom: 86px;
+    padding-top: 120px;
+    padding-bottom: 70px;
     padding-left: 156px;
     padding-right: 140px;
 }
@@ -33,9 +37,13 @@ h1:hover{
 .link-button{
     text-decoration: none;
     color: white;
-    background-color: tomato;
+    
+   background-image: linear-gradient(yellowgreen, cyan);
     padding: 5px 20px;
+    border-radius: 20px;
 }
+   /*.......... Player Info.......
+   ............................... */
 .container-box{
   margin: 50px 100px;
 }
@@ -73,6 +81,15 @@ width: 90%;
 .title{
     text-align: center;
 }
+.title{
+    background-color:cornflowerblue ;
+    border-radius: 10px;
+    margin-left:400px ;
+    margin-right:400px ;
+}
+.color{
+    color: white;
+}
 .sponsors{
     display: flex;
    margin-left: 100px;
@@ -97,6 +114,7 @@ width: 90%;
     
   margin-left: 300px;
   padding: 50px;
+  padding-bottom: 20px;
   
 }
 /* Media Queries */
@@ -106,7 +124,7 @@ width: 90%;
     .container{
         width: 100%;
     }
-    .container, .container-box, .container-2, .container-3{
+    .container, .container-box, .container-3, .container-2{
         grid-template-columns: repeat(1, 1fr);
     }
    
