@@ -17,21 +17,23 @@ body{
     background-color: blue;
     padding-top: 120px;
     padding-bottom: 70px;
-    padding-left: 156px;
-    padding-right: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 h1{
     font-size: 50px;
     color: white;
 }
 h1:hover{
-    color: red;
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
     width: 100%;
+    
 
 }
 .link-button{
@@ -127,5 +129,22 @@ width: 90%;
     .container, .container-box, .container-3, .container-2{
         grid-template-columns: repeat(1, 1fr);
     }
-   
+   .half-width, .player, team, .title{
+       flex-direction: column;
+   }
+}
+/* .............tablet devices..........
+............................... */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+  .container{
+      width: 100%;
+  } 
+  .half-width .title2{
+      grid-template-columns: repeat(2,1fr);
+
+  }
+  .player{
+      grid-template-columns: repeat(1, 1fr);
+  }
+
 }
