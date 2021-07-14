@@ -37,7 +37,7 @@ h1{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  
+    
     
    
 }
@@ -51,4 +51,11 @@ h1{
   
    padding: 15px;
    padding-left: 50px;
+}
+.container-2{
+   
+    text-align: center;
+    border: 1px solid whitesmoke;
+  margin-left: 300px;
   
+}
