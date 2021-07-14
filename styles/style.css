@@ -20,6 +20,9 @@ h1{
     font-size: 50px;
     color: white;
 }
+h1:hover{
+    color: red;
+}
 .half-width{
     width: 50%;
 }
@@ -70,7 +73,7 @@ width: 90%;
 .title{
     text-align: center;
 }
-.sponsars{
+.sponsors{
     display: flex;
    margin-left: 100px;
    margin-right: 100px;
@@ -80,7 +83,7 @@ width: 90%;
     
 
 }
-.sponsar{
+.sponsor{
     padding-right: 65px;
 }
 .title2{
@@ -95,4 +98,16 @@ width: 90%;
   margin-left: 300px;
   padding: 50px;
   
+}
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .container, .container-box, .container-2, .container-3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
 }
