@@ -6,7 +6,8 @@ body{
     background-color: white
     ;
 }
-.container{
+.container {
+    
     display: flex;
     background-color: blue;
     padding-top: 135px;
