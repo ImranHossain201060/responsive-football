@@ -3,7 +3,7 @@
 /* common style or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke
+    background-color: white
     ;
 }
 .container{
@@ -46,7 +46,7 @@ h1{
 }
 .player{
     
-   background-color: white;
+   
    border: 10px  solid whitesmoke;
   
    padding: 15px;
@@ -55,7 +55,7 @@ h1{
 .container-2{
    
     text-align: center;
-    border: 1px solid whitesmoke;
+    
   margin-left: 300px;
   
 }
